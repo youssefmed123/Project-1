@@ -17,7 +17,6 @@ namespace Washing_machine
 			
 			Console.Write("Enter your name : ");
 
-            Console.ForegroundColor= ConsoleColor.White;
             string userName = Console.ReadLine();
 
             Console.WriteLine("Nice to meet you " + userName);
@@ -52,7 +51,7 @@ namespace Washing_machine
             double Totalcost = (priceOfsmall * smallCarpet) + (priceOflarge * largeCarpet) ;
             double Tax = Totalcost * TaxRate;
             double TotalEstimate= Totalcost + Tax;
-            //Estimate
+            //Estimate 
             Console.WriteLine("Esimate for carpet washing service");
             Console.WriteLine($"Number of small carpets : {smallCarpet}");
             Console.WriteLine($"Number of large carpets : {largeCarpet}");
